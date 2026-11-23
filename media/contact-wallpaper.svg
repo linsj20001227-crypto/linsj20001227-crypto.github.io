@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600" fill="none">
+  <defs>
+    <radialGradient id="atmosphere" cx="0" cy="0" r="1" gradientTransform="translate(1920 650) rotate(120) scale(1370 1180)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173B75"/><stop offset=".55" stop-color="#0D1D42"/><stop offset="1" stop-color="#050A18"/>
+    </radialGradient>
+    <linearGradient id="outer" x1="1670" y1="190" x2="2380" y2="1350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070F29"/><stop offset=".22" stop-color="#193F7B"/><stop offset=".46" stop-color="#588DB1"/><stop offset=".64" stop-color="#586DAD"/><stop offset=".82" stop-color="#4A356F"/><stop offset="1" stop-color="#0D1635"/>
+    </linearGradient>
+    <linearGradient id="face" x1="1820" y1="300" x2="2180" y2="1280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081A3B"/><stop offset=".25" stop-color="#214F84"/><stop offset=".43" stop-color="#A8D6E5"/><stop offset=".49" stop-color="#598DAE"/><stop offset=".66" stop-color="#375A9C"/><stop offset=".83" stop-color="#746AAA"/><stop offset="1" stop-color="#1A214A"/>
+    </linearGradient>
+    <linearGradient id="lip" x1="1540" y1="220" x2="2180" y2="1300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B8FB7" stop-opacity="0"/><stop offset=".25" stop-color="#B9E7EE" stop-opacity=".75"/><stop offset=".52" stop-color="#E2F0F5"/><stop offset=".74" stop-color="#BCB5E9" stop-opacity=".65"/><stop offset="1" stop-color="#7974AC" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lower" x1="300" y1="1570" x2="2390" y2="910" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1931"/><stop offset=".31" stop-color="#213A63"/><stop offset=".59" stop-color="#4875A1"/><stop offset=".77" stop-color="#6A6DAD"/><stop offset="1" stop-color="#1B2446"/>
+    </linearGradient>
+    <linearGradient id="lowerEdge" x1="0" y1="1480" x2="2300" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#507AA3" stop-opacity="0"/><stop offset=".46" stop-color="#85B9CD" stop-opacity=".5"/><stop offset=".76" stop-color="#D2D0F0" stop-opacity=".8"/><stop offset="1" stop-color="#7C83B2" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="readable" x1="0" y1="800" x2="2400" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050916" stop-opacity=".88"/><stop offset=".28" stop-color="#050916" stop-opacity=".71"/><stop offset=".53" stop-color="#050916" stop-opacity=".2"/><stop offset=".79" stop-color="#050916" stop-opacity=".04"/><stop offset="1" stop-color="#050916" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="edges" x1="1200" y1="0" x2="1200" y2="1600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050916" stop-opacity=".88"/><stop offset=".15" stop-color="#050916" stop-opacity=".05"/><stop offset=".7" stop-color="#050916" stop-opacity="0"/><stop offset="1" stop-color="#050916" stop-opacity=".85"/>
+    </linearGradient>
+  </defs>
+  <path fill="#050916" d="M0 0h2400v1600H0z"/>
+  <path fill="url(#atmosphere)" d="M0 0h2400v1600H0z"/>
+  <path d="M2550-210C2050-75 1670 209 1518 533c-147 314-15 568 301 741 184 101 404 161 653 174l95-390c-259 5-451-65-560-182-116-125-132-265-72-433 80-225 288-419 615-540Z" fill="url(#outer)"/>
+  <path d="M2540-154C2145 16 1828 287 1699 570c-105 232-21 430 225 569 151 86 338 132 555 134l47-232c-258-4-436-73-533-194-108-136-91-290 6-478 113-218 301-398 541-518Z" fill="url(#face)"/>
+  <path d="M2540-154C2145 16 1828 287 1699 570c-105 232-21 430 225 569 151 86 338 132 555 134" stroke="url(#lip)" stroke-width="3"/>
+  <path d="M2467-96C2111 82 1837 321 1731 589c-89 224-7 403 223 535 144 82 316 125 521 127" stroke="url(#lip)" stroke-opacity=".23" stroke-width="1"/>
+  <path d="M2435-190C1987-16 1616 307 1508 601c-97 263 34 495 342 665" stroke="url(#lip)" stroke-opacity=".12" stroke-width="1"/>
+  <path d="M-90 1620c459-183 804-338 1138-413 384-86 708-68 1042-123 187-31 359-94 492-186l-8 372c-356 65-673 11-1017 28-364 19-816 156-1118 361Z" fill="url(#lower)"/>
+  <path d="M-90 1620c459-183 804-338 1138-413 384-86 708-68 1042-123 187-31 359-94 492-186" stroke="url(#lowerEdge)" stroke-width="3"/>
+  <path d="M180 1597c379-165 675-295 993-341 337-49 720-25 1119-112" stroke="url(#lowerEdge)" stroke-opacity=".25" stroke-width="1"/>
+  <g stroke="#B4D5EE" stroke-opacity=".11" stroke-width="1">
+    <path d="M984 273c422-212 873-262 1307-184"/>
+    <path d="M1052 292c404-183 814-217 1170-162"/>
+    <path d="M1332 382c247-83 481-104 688-80"/>
+  </g>
+  <g fill="#DBE9FA" fill-opacity=".4">
+    <circle cx="1168" cy="212" r="1.8"/><circle cx="2118" cy="198" r="1.4"/><circle cx="1278" cy="1018" r="1.5"/><circle cx="2272" cy="761" r="1.8"/>
+  </g>
+  <path fill="url(#readable)" d="M0 0h2400v1600H0z"/>
+  <path fill="url(#edges)" d="M0 0h2400v1600H0z"/>
+</svg>

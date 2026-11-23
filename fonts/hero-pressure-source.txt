@@ -1,0 +1,7 @@
+Family: Noto Sans SC
+Source: Google Fonts, https://fonts.google.com/noto/specimen/Noto+Sans+SC
+Subset: 设计有形，创意无界.
+Variable axis: wght 100..900
+Format: WOFF2; downloaded 2026-10-07
+License: SIL Open Font License 1.1; see noto-sans-sc-OFL.txt
+CSS source: https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&text=%E8%AE%BE%E8%AE%A1%E6%9C%89%E5%BD%A2%EF%BC%8C%E5%88%9B%E6%84%8F%E6%97%A0%E7%95%8C.&display=swap
